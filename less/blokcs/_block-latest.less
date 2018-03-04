@@ -1,0 +1,73 @@
+.latest-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+a.latest-view {
+	font-family: Montserrat;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #7cc576;
+	
+	&:hover {
+		color: #97d093;
+	}
+
+	&:active {
+		color: #71d269;
+	}
+}
+
+.block-latest-content {
+	width: 520px;
+}
+
+.latest-list-check {
+	margin-bottom: 85px;
+
+	
+	img {
+		margin-right: 15px;
+	}
+
+	.heading-latest {
+		font-family: Montserrat;
+		font-size: 18px;
+		font-weight: bold;
+		color: #222;
+		letter-spacing: -.5px;
+	}
+
+	&__flex {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	&__text {
+		font-family: 'Roboto Slab';
+		font-size: 16px;
+		color: #777;
+		letter-spacing: -.5px;
+	}
+}
+
+.latest-text {
+	font-family: 'Roboto Slab';
+	font-size: 16px;
+	color: #777;
+	letter-spacing: -.5px;
+	margin-bottom: 15px;
+
+}
+
+.block-latest-img {
+	position: absolute;
+	right: 0;
+	z-index: -10000;
+	@media (max-width: 940px) {
+		display: none;
+	}
+}

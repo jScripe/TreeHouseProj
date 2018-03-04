@@ -1,0 +1,24 @@
+.block-logo-flex {
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	@media (max-width: 940px) {
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo {
+
+		@media (max-width: 940px) {
+			margin-bottom: 20px;
+		}
+	}
+}

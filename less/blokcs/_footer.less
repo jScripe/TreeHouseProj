@@ -1,0 +1,52 @@
+.border-circle {
+	position: relative;
+	display: inline-block;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 20px;
+	width: 35px;
+	height: 35px;
+
+	a {
+		position: absolute;
+		top: 8px;
+		left: 8px;
+	}
+
+	.circle {
+		left: 11px;
+	}
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	.social-sites {
+		margin-left: 12em;
+
+		@media (max-width: 940px) {
+		
+			margin-left: 0em;
+			margin-top: 10px
+		}
+	}
+
+	@media (max-width: 940px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.copyright {
+
+
+	.footer-text{
+		font-family: Montserrat;
+		font-size: 14px;
+		letter-spacing: -.5px;
+	}
+}
